@@ -1,0 +1,56 @@
+{
+    "clusters": [
+        {
+            "nodes": [
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node04.internal.aws.testdrive.openshift.com"
+                            ],
+                            "storage": [
+                                "10.0.1.50"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/xvdd"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node05.internal.aws.testdrive.openshift.com"
+                            ],
+                            "storage": [
+                                "10.0.3.34"
+                            ]
+                        },
+                        "zone": 2
+                    },
+                    "devices": [
+                        "/dev/xvdd"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node06.internal.aws.testdrive.openshift.com"
+                            ],
+                            "storage": [
+                                "10.0.4.204"
+                            ]
+                        },
+                        "zone": 3
+                    },
+                    "devices": [
+                        "/dev/xvdd"
+                    ]
+                }
+            ]
+        }
+    ]
+}
